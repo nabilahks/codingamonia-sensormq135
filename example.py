@@ -5,7 +5,7 @@ import time
 try:
     print("Press CTRL+C to abort.")
     
-    mq = MQ();
+    mq = MQ()
     while True:
         perc = mq.MQPercentage()
         sys.stdout.write("\r")
