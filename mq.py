@@ -76,7 +76,7 @@ class MQ():
         val = val/self.RO_CLEAN_AIR_FACTOR                      # divided by RO_CLEAN_AIR_FACTOR yields the Ro 
                                                                 # according to the chart in the datasheet 
 
-        return val;
+        return val
       
       
     #########################  MQRead ##########################################
